@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Udemy Courses\CPP-Game-Dev-Course\IncrementOperators\IncrementOperators\Source.cpp(25,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  IncrementOperators.vcxproj -> D:\Udemy Courses\CPP-Game-Dev-Course\IncrementOperators\x64\Debug\IncrementOperators.exe

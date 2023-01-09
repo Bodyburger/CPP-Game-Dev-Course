@@ -1,0 +1,22 @@
+﻿  Source.cpp
+D:\Udemy Courses\CPP-Game-Dev-Course\References1\References1\Source.cpp(12,2): error C2664: 'void ChangeStr(std::string &)': cannot convert argument 1 from 'const char [14]' to 'std::string &'
+D:\Udemy Courses\CPP-Game-Dev-Course\References1\References1\Source.cpp(5,6): message : see declaration of 'ChangeStr'
+D:\Udemy Courses\CPP-Game-Dev-Course\References1\References1\Source.cpp(12,2): message : while trying to match the argument list '(const char [14])'
+D:\Udemy Courses\CPP-Game-Dev-Course\References1\References1\Source.cpp(38,2): error C2678: binary '+=': no operator found which takes a left-hand operand of type 'const std::string' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3386,32): message : could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator +=(_Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3382,32): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator +=(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3371,32): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator +=(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3234,32): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator +=(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+D:\Udemy Courses\CPP-Game-Dev-Course\References1\References1\Source.cpp(38,2): message : while trying to match the argument list '(const std::string, const char [2])'
